@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@theme {
+  --rosepink: #f3beb9;
+  --inkblue: #222337;
+  --oldyellow: #F4D095;
+  --dustgreen: #727A67;
+}
+
+body {
+  background-color: var(--inkblue);
+  color: var(--rosepink);
+  font-family: "Consolas";
+}
+
+a { 
+  color: var(--oldyellow);
+}
+
+a:hover {
+  color: var(--dustgreen);
+}
