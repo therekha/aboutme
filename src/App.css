@@ -1,6 +1,6 @@
 .tile {
   border: 2px solid var(--rosepink);
-  p{
+  p, strong{
     margin: 10px;
   }
 }
