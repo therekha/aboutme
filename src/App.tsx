@@ -1,4 +1,6 @@
 import './App.css'
+import { CoolStuff } from './CoolStuff'
+import { Currently } from './Currently'
 import { Portrait } from './Portrait'
 
 function App() {
@@ -15,9 +17,7 @@ function App() {
           <p><a href="https://github.com/therekha">Github</a> <a href="https://in.linkedin.com/in/rekhabhupatiraju">LinkedIn</a></p>
         </div>
         <div className='tile'>
-          <strong>currently reading:</strong>
-          <p>wuthering heights</p>
-          <p>playing to win</p>
+          <Currently />
         </div>
       </div>
       <div className='w-fit flex flex-col gap-4'>
@@ -29,7 +29,7 @@ function App() {
           <p>so im replacing my website with the in-progress version even though it's clearly in-progress</p>
         </div>
         <div className='tile'>
-          <p>cool stuff links</p>
+          <CoolStuff />
         </div>
       </div>
     </div>

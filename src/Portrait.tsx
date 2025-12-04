@@ -7,7 +7,7 @@ import upleftPortrait from './assets/portraits/upleft.jpg';
 import uprightPortrait from './assets/portraits/upright.jpg';
 import downleftPortrait from './assets/portraits/downleft.jpg';
 import downrightPortrait from './assets/portraits/downright.jpg';
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export function Portrait() {
     const imgRef = useRef<HTMLImageElement | null>(null);
