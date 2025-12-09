@@ -1,5 +1,10 @@
 .tile {
   border: 2px solid var(--rosepink);
+    max-width: 1000px; /* adjust this value to your preference */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-height: 500px; /* adjust this value to your preference */
+    overflow-y: auto;
   p, h1 {
     margin: 10px;
   }
