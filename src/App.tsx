@@ -14,6 +14,7 @@ function App() {
         </div>
         <div className='tile'>
           <p>Rekha Bhupatiraju</p>
+          <p>Product @ Microsoft</p>
           <p><a href="https://github.com/therekha">Github</a> <a href="https://in.linkedin.com/in/rekhabhupatiraju">LinkedIn</a></p>
         </div>
         <div className='tile'>
