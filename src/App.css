@@ -1,4 +1,5 @@
 .tile {
+  background-color: var(--inkblue);
   border: 2px solid var(--rosepink);
     max-width: 1000px; /* adjust this value to your preference */
     word-wrap: break-word;
