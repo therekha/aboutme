@@ -10,8 +10,6 @@
 
 body {
   background-color: var(--inkblue);
-  background: radial-gradient(circle, transparent 20%, var(--inkblue) 20%,var(--inkblue) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, var(--inkblue) 20%,var(--inkblue) 80%, transparent 80%, transparent) 10px 10px, linear-gradient(var(--rosepink) 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, var(--rosepink) 0.8px,var(--inkblue) 0.8px) -0.4px 0;
-  background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
   color: var(--rosepink);
   font-family: "Consolas";
 }
